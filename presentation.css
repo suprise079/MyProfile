@@ -1,82 +1,111 @@
 * {box-sizing: border-box;}
 body {
-	background-color: #DAE6E4;
-	padding: 1%;
+	background-color: #0B0C10;
+	padding: 2%;
 }
 
-h2 {
-	color: #316DF8;
-	position: relative;
-	left: 20px;
-
-}
-
-h1 {
-	text-indent: 10%;
-	color: #1689CB;
-}
-
-h3 {
-	text-decoration: underline;
+P, li, div {
+	color: white;
+	font-size: 110%;
 }
 
 nav {
 	display: block;
-	background-color: #9F43F0;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+	font-size: 14pt;
+	font-weight: bold;
+
 }
 
 a {
-	color: black;
+	color: #45A29E;
 	padding: 20px;
+	margin: 20px;
 	position: left center;
 }
 
-.firstbox {
+h1 {
+	padding: px;
+	text-align: center;
+	color: #66FCF1;
+}
+
+#story {
+	color: #66FCF1;
+	text-decoration: underline;
+	text-align: center;
 	padding: 10px;
 	margin: 5px;
-	width: 90%;
 }
-
-video {
-	float: right;
-	position: sticky;
-	top: 5%;
-	padding: 10px;
-	text-shadow: blue;
-}
-
-.lowerh3 {
+.storybox {
 	text-align: center;
-	clear: right;
-	clear: left;
+	margin-left: 25%;
+	margin-top: 10px;
+	color: white;
+	width: 50%;
+	height: 220px;
+	overflow: hidden;
+}
+
+#storybg {
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+	background-image: url("media\\background.jpg");
+	width: 100%;
+}
+
+#videoButton {
+	align-items: center;
+	margin-left: 45%;
+	color: white;
+	border: solid #45A29E 3px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.headings {
+	text-align: center;
+	color: #66FCF1;
+	text-decoration: underline;
 	margin: 20px;
 }
 
-#materialDream {
-	background-color: pink;
-	width: 40%;
-	height: 620px;
-	float: left;
-	margin-left: 10%;
+#dreamsSection {
+	background-image: url("media\\bg2.jpg");
+	background-size: cover;
 	padding: 10px;
+	width: 100%;
+}
+
+#materialDream {
+	background-color: #1F2833;
+	box-shadow: 10px 0PX 10PX 0PX #C5C6C7;
+	height: 670px;
+	margin: 30px;
+	padding: 10px;
+	width: 45%;
+	overflow: hidden;
 
 }
 
 #spiritualDream {
-	background-color: orange;
-	width: 40%;
-	float: left;
+	background-color: #1F2833;
+	box-shadow: 10px 0PX 10PX 0PX #C5C6C7;
 	height: 620px;
-	clear: right;
-	padding: 10px;
+	width: 45%;
 	border-left: 1px solid black;
-	margin-bottom: 15px;
+	padding: 10px;
+	overflow: hidden;
 }
 
 .leftPhotos {
 	width: 48%;
 	height: 200px;
-	float: left;
 	margin-right: 5px;
 
 }
@@ -84,16 +113,14 @@ video {
 .rightPhotos {
 	width: 48%;
 	height: 200px;
-	float: left;
-	clear: right;
 }
 
 .quotes {
-	background-color: brown;
+	box-sizing: border-box;
+	background-color: #C5C6C7;
 	position: relative;
-	width: 25%;
+	font-size: 130%;
 	height: 100px;
-	float: left;
 	padding: 5px;
 	margin: 5px;
 	border: 2px solid black;
@@ -105,18 +132,31 @@ video {
 	bottom: 2px;
 }
 
-hr {
+#contacts {
+	background-image: url("media\\bg3.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-top: 30px;
+	height: 350px;
 	clear: left;
-	height: 2px;
-}
-
-.contactSection {
-	height: 300px;
-	clear: left;
-	background-color: green;
 	padding: 5px;
 	position: relative;
 
+}
+
+h4 {
+	color: #45A29E;
+	font-size: 2em;
+}
+
+.details {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-size: 110%;
+}
+#a {
+	margin: 0px;
+	padding: 0px;
 }
 
 .massageBox {
